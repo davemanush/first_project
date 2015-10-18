@@ -1,21 +1,32 @@
 package first_project;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
 public class Main {
 
-	static char[][] field = new char[3][3];
 
 	public static void main(String[] args) {
-		PrintToScreen screenPrinter = new PrintToScreen();
+        Consoleing c = new Consoleing();
 
-		for(int i = 0; i < 3; i++) {
-			for(int j = 0; j < 3; j++) {
-				field[i][j] = '*';
+        System.out.println("Application first_project");
+        System.out.println("Type 'help' if you are stuck!");
 
-			}
-		}
-		field[0][0] = 'X';
-		field[1][1] = 'X';
-		screenPrinter.PrintTicTacToeToScreen(field);
+        while(true) {
+
+            System.out.println("Enter command here : ");
+
+            try {
+                BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
+                String input = bufferRead.readLine();
+
+                c.processInput(input);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 	}
 
 }
