@@ -9,7 +9,8 @@ public class Main {
 
 
 	public static void main(String[] args) {
-        Consoleing c = new Consoleing();
+        System.out.println("Valami");
+		Consoleing c = new Consoleing();
 
         System.out.println("Application first_project");
         System.out.println("Type 'help' if you are stuck!");
