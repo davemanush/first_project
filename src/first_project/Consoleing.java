@@ -9,14 +9,15 @@ public class Consoleing {
         int index = 0;
         String[] inputs = {"exit","help","amoba"};
         for(int i = 0; i < inputs.length; i++) {
-            if (inputs[i].equals(input))
-            {
+            System.out.println(inputs[i] + "  " + input);
+            if (input.equals(inputs[i])) {
+
                 index = i;
-            }
-            else {
+            } else {
                 index = -1;
             }
         }
+            System.out.println(index);
 
         switch(index){
             case -1:
