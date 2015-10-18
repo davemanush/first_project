@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd145c1a-3244-4ca2-9cab-22d281114e9d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/first_project/Amoba.class" afterPath="$PROJECT_DIR$/bin/first_project/Amoba.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/first_project/Consoleing.class" afterPath="$PROJECT_DIR$/bin/first_project/Consoleing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/first_project/HelpClass.class" afterPath="$PROJECT_DIR$/bin/first_project/HelpClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/first_project/Main.class" afterPath="$PROJECT_DIR$/bin/first_project/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/first_project/PrintToScreen.class" afterPath="$PROJECT_DIR$/bin/first_project/PrintToScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/first_project/Consoleing.java" afterPath="$PROJECT_DIR$/src/first_project/Consoleing.java" />
-    </list>
+    <list default="true" id="dd145c1a-3244-4ca2-9cab-22d281114e9d" name="Default" comment="" />
     <ignored path="first_project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -514,12 +507,12 @@
       <workItem from="1445124486169" duration="66000" />
       <workItem from="1445124746913" duration="537000" />
       <workItem from="1445125313363" duration="1031000" />
-      <workItem from="1445166497507" duration="5970000" />
+      <workItem from="1445166497507" duration="6503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7604000" />
+    <option name="totallyTimeSpent" value="8137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
