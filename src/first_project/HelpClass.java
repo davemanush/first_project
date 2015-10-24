@@ -5,6 +5,11 @@ package first_project;
  */
 public class HelpClass {
     public HelpClass(){
+
+
+    }
+    public void showCommands()
+    {
         String[] commands = {"exit", "help", "amoba"};
         String[] description = {
                 "Closes the application",
@@ -17,6 +22,5 @@ public class HelpClass {
         {
             System.out.println(commands[i] + "   -   "+ description[i]);
         }
-
     }
 }

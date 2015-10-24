@@ -13,6 +13,7 @@ public class Consoleing {
             if (input.equals(inputs[i])) {
 
                 index = i;
+                break;
             } else {
                 index = -1;
             }
@@ -29,6 +30,7 @@ public class Consoleing {
                 break;
             case 1:
                 HelpClass h = new HelpClass();
+                h.showCommands();
                 break;
             case 2:
                 Amoba a = new Amoba();
