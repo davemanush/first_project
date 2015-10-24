@@ -9,7 +9,6 @@ public class Consoleing {
         int index = 0;
         String[] inputs = {"exit","help","amoba"};
         for(int i = 0; i < inputs.length; i++) {
-            System.out.println(inputs[i] + "  " + input);
             if (input.equals(inputs[i])) {
 
                 index = i;
@@ -18,7 +17,6 @@ public class Consoleing {
                 index = -1;
             }
         }
-            System.out.println(index);
 
         switch(index){
             case -1:

@@ -10,6 +10,7 @@ public class HelpClass {
     }
     public void showCommands()
     {
+    	PrintToScreen p = new PrintToScreen();
         String[] commands = {"exit", "help", "amoba"};
         String[] description = {
                 "Closes the application",
@@ -22,5 +23,6 @@ public class HelpClass {
         {
             System.out.println(commands[i] + "   -   "+ description[i]);
         }
+        
     }
 }
