@@ -19,25 +19,42 @@ public class Amoba {
        
         tFeltolt();
         
+        boolean isDraw = false;
+        int draw = 1;
+        int cordX;
+        int cordY;
         do {
+        	if(draw == 10) {
+        		System.out.println("It's Draw.");
+        		isDraw = true;
+        		break;
+        	}
+        		draw++;
+        		
         	screenPrinter.PrintTicTacToeToScreen(field);    	
         	 
         	if (player == true) {
         		player = false;
-        		System.out.println("Palyer 2's turn.");
+        		System.out.println("Palyer 2's turn.(O) ");
         		C = 'O';
         	} 
         	else {
         		player = true;
-        		System.out.println("Player 1's turn.");
+        		System.out.println("Player 1's turn. (X)");
         		C = 'X';
         	}
+        	
+//        	do {
         	System.out.println("Írjon be két számot.:");
-        	int cordX = sc.nextInt();
-        	int cordY = sc.nextInt();
+        	cordX = sc.nextInt();
+        	cordY = sc.nextInt();
+        	
+//        	} while (field[cordX][cordY] != ' ');
         	
         	field [cordX][cordY] = C;
+        	
         } while(!win());
+       if(isDraw = false){
         if (player == true) {
     		System.out.println("Palyer 2 WIN'S.");
     		C = 'O';
@@ -46,7 +63,7 @@ public class Amoba {
     		System.out.println("Player 1 WIN'S.");
     		C = 'X';
     	}
-       
+       }
     }
     
     private boolean win()
