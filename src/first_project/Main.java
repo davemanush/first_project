@@ -18,6 +18,7 @@ public class Main {
         while(true) {
 
             System.out.println("Enter command here : ");
+            System.out.println("kissa_test ");
 
             try {
                 BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
