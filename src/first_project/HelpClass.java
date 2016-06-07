@@ -19,6 +19,7 @@ public class HelpClass {
         };
         System.out.println();
         System.out.println("Commands-------------");
+        System.out.println("testü");
         for(int i = 0; i < commands.length; i++)
         {
             System.out.println(commands[i] + "   -   "+ description[i]);
